@@ -1,11 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gelf4NLog.Target", "Target\Gelf4NLog.Target.csproj", "{8A614770-AEC9-42AD-87BA-CCD53F880A55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gelf4NLog.UnitTest", "UnitTest\Gelf4NLog.UnitTest.csproj", "{62FA1974-4E72-489E-B6D1-A67C57B57A66}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gelf4NLog.ConsoleRunner", "ConsoleRunner\Gelf4NLog.ConsoleRunner.csproj", "{A6E29782-E22C-4B2A-938F-5A4C8A1BC117}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A614770-AEC9-42AD-87BA-CCD53F880A55} = {8A614770-AEC9-42AD-87BA-CCD53F880A55}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
